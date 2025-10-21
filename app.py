@@ -3,9 +3,11 @@ from werkzeug.security import generate_password_hash, check_password_hash
 import psycopg2
 import psycopg2.extras
 import os
+from flask_cors import CORS
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'super-secret-key') 
+CORS(app)
 
 # ----------------------------
 # PostgreSQL Configuration
