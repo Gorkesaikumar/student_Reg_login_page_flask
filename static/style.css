@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-card {
+  background: #fff;
+  max-width: 480px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.register-card h2 {
+  letter-spacing: 0.5px;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0a58ca;
+  transform: translateY(-2px);
+}
+
+input, select {
+  border-radius: 8px !important;
+}
+
+.text-muted {
+  font-size: 0.9rem;
+}
